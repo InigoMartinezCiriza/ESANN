@@ -7,7 +7,15 @@ Understanding the brain mechanisms underlying cognition and learning is a major 
 
 It is trained in a Economic Choice Environmnt based on a real-life experiment (Padoa-Schioppa C, Assad JA. Neurons in the orbitofrontal cortex encode economic value. Nature. 2006 May 11;441(7090):223-6).
 
-The project applies the REINFORCE algorithm with baseline to train an Actor-Critic network using modified GRU cells to mimic biological processes.
+The project applies the REINFORCE algorithm with baseline to train an Actor-Critic network using modified GRU cells to mimic biological processes. Requires Python 3.12.3
+
+## Structure
+- Figures: contains the figures used in the article.
+- Saved: contains the data obtained from training.
+    - Checkpoints: contains the masks and the network state for each training stage.
+    - Outputs: contains the data (rewards, losses, choices...) of each training stage.
+- Modules: contains the modules implemented: training algorithm, network structure and environments description.
+- Notebooks: contains the training of the agents and the obtention of the results.
 
 ## License
 Academic work. For use and redistribution, please consult the author.
