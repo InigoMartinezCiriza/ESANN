@@ -21,4 +21,4 @@ The project applies the REINFORCE algorithm with baseline to train an Actor-Crit
 Academic work. For use and redistribution, please consult the author.
 
 ## Author
-Iñigo Martínez Ciriza.
+Iñigo Martínez Ciriza and Carlos María Alaíz Gudín.
