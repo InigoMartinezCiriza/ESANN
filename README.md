@@ -12,7 +12,7 @@ The project applies the REINFORCE algorithm with baseline to train an Actor-Crit
 
 ## Structure
 - Figures: contains the figures used in the article.
-- Saved: contains the data obtained from training. Some files are compressed due to its large size.
+- Saved: contains the data obtained from the training process. Some files are compressed due to its large size.
     - Checkpoints: contains the masks and the network state for each training stage.
     - Outputs: contains the data (rewards, losses, choices...) of each training stage.
 - Modules: contains the modules implemented: training algorithm, network structure and environments description.
