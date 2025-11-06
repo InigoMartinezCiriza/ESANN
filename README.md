@@ -3,7 +3,7 @@
 This repository contains the code associated to the work **"Bioinspired RNN for Time-Dependant RL Tasks"**, for the ESANN 2026 conference.
 
 ## Description
-Understanding the brain mechanisms underlying cognition and learning is a major challenge in neuroscience. This work explores the use of Recurrent Neural Networks (RNN), based on modified GRU units and trained with Reinforcement Learning (RL), as models for specific brain regions involved in cognitive tasks. The aim is to incorporate bioinspired features into the network architecture and neural units to reflect principles observed in decision-making structures. When used in a RL environment requiring temporal memory, the model demonstrates the ability to solve complex tasks, highlighting its potential to bridge computational abstraction and biological neural processes.
+Understanding the brain mechanisms underlying cognition and learning is a major challenge in neuroscience. This work uses Recurrent Neural Networks based on modified GRU units and trained with Reinforcement Learning (RL) as models for specific brain regions involved in cognitive tasks. The aim is to incorporate bioinspired features into the network architecture and neural units to reflect principles observed in decision-making structures, granting a public implementation for future research. When used in a RL environment requiring temporal memory, the model demonstrates the ability to solve complex tasks, highlighting its potential to bridge computational abstraction and biological neural processes.
 
 It is trained in a Economic Choice Environmnt based on a real-life experiment (Padoa-Schioppa C, Assad JA. Neurons in the orbitofrontal cortex encode economic value. Nature. 2006 May 11;441(7090):223-6).
 
